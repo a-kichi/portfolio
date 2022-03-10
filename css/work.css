@@ -65,12 +65,11 @@ header{
 /*wrapper*/
 .wrapper{
     font-family: "筑紫A丸ゴシック";
-    margin: 112px auto 200px;
 }
 
 .works{
-    margin: 0px auto;
-    width: 1200px;
+    margin: 112px auto 200px;
+    width: 1000px;
     display: flex;
     justify-content: center;
 }
