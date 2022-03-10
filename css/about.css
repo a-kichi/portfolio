@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: "jinky", "からかぜ";
+    color: #F2CB04;
+    background-color: #F2F2F2;
+}
+
+
+a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+a :after{
+    color: #F2CB04;
+}
+
+/*header*/
+header{
+    width: 880px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    font-size: 64px;
+    letter-spacing: 8px;
+    padding: 10px 0px 0px 12px;
+}
+
+.header-right{
+    text-align: center;
+}
+
+.header-right p{
+    font-size: 46px;
+    font-weight: bold;
+    /* margin-bottom: -4px; */
+}
+
+/*リストcss*/
+.header-right li{
+    /* background-color: aqua; */
+    display: inline-block;
+    letter-spacing: 6px;
+    font-size: 20px;
+    margin: -8px 12px 0px;
+    padding: 0px 7px 0px 10px;
+}
+
+.header-right li a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+.header-right li a :active{
+    color: #F2CB04;
+}
+
+/*wrapper*/
+.wrapper{
+    font-family: "筑紫A丸ゴシック";
+}
+
+.content1{
+    width: 1000px;
+    margin: 112px auto 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+    width: 300px;
+}
+
+.images img{
+    width: 300px;
+    margin-top: 40px;
+}
+
+.text-box{
+    width: 500px;
+    margin-left: 72px;
+    font-family: "筑紫A丸ゴシック";
+}
+
+.text-box h2{
+    margin: 56px 0px 24px 0px;
+    font-size: 26px;
+}
+
+.text-box p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+
+.wrapper h3{
+    text-align: center;
+}
+
+.account{
+    /* background-color: azure; */
+    width: 1000px;
+    height: 170px;
+    margin: 0 auto 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper h3{
+    font-size: 22px;
+}
+
+.account img{
+    width: 40px;
+}
+
+.fb{
+    padding-left: 80px;
+}
+
+.account p{
+    font-size: 24px;
+    margin: 0px 80px 0px 20px;
+}
+
+/* footer */
+
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-contents p{
+    font-size: 24px;
+    background-color: #F2F2F2;
+    margin-bottom: -2px;
+    margin-left: 24px;
+    letter-spacing: 8px;
+}
+
+.title-contents h1{
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+
+/*リストcss*/
+.title-contents li{
+    display: inline-block;
+    letter-spacing: 8px;
+    font-size: 28px;
+    padding: 0px 18px;
+    margin-top: 16px;
+}
+
+.title-contents li a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+.title-contents li a :active{
+    color: #F2CB04;
+}
+
+.copy{
+    font-size: 22px;
+    margin: 94px auto 136px;
+}
+
+@media all and (max-width: 500px){
+
+}

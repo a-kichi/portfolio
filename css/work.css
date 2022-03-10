@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: "jinky", "からかぜ";
+    color: #F2CB04;
+    background-color: #F2F2F2;
+}
+
+a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+a :after{
+    color: #F2CB04;
+}
+
+/*header*/
+header{
+    width: 880px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    font-size: 64px;
+    letter-spacing: 8px;
+    padding: 10px 0px 0px 12px;
+}
+
+.header-right{
+    text-align: center;
+}
+
+.header-right p{
+    font-size: 46px;
+    font-weight: bold;
+    /* margin-bottom: -4px; */
+}
+
+/*リストcss*/
+.header-right li{
+    /* background-color: aqua; */
+    display: inline-block;
+    letter-spacing: 6px;
+    font-size: 20px;
+    margin: -8px 12px 0px;
+    padding: 0px 7px 0px 10px;
+}
+
+.header-right li a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+.header-right li a :active{
+    color: #F2CB04;
+}
+
+/*wrapper*/
+.wrapper{
+    font-family: "筑紫A丸ゴシック";
+    margin: 112px auto 200px;
+}
+
+.works{
+    margin: 0px auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+#work-top{
+    width: 380px;
+}
+
+.work-all{
+    margin-left: 40px;
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work-all img{
+    width: 200px;
+}
+
+/* footer */
+
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-contents p{
+    font-size: 24px;
+    margin-bottom: -2px;
+    margin-left: 24px;
+    letter-spacing: 8px;
+}
+
+.title-contents h1{
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+
+/*リストcss*/
+.title-contents li{
+    display: inline-block;
+    letter-spacing: 8px;
+    font-size: 28px;
+    padding: 0px 18px;
+    margin-top: 16px;
+}
+
+.title-contents li a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+.title-contents li a :active{
+    color: #F2CB04;
+}
+
+.copy{
+    font-size: 22px;
+    margin: 94px auto 136px;
+}
+
+@media all and (max-width: 500px){
+
+}

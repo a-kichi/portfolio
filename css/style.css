@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: "jinky", "からかぜ";
+    color: #F2CB04;
+    background-color: #F2F2F2;
+    /* background-image: url(/img/top.png);
+    background-size: cover; */
+}
+
+#wrapper{
+    background-color: #F2F2F2;
+}
+
+.bl{
+    height: 470px;
+}
+
+li{
+    display: inline-block;
+    font-size: 48px;
+    letter-spacing: 6px;
+    padding: 0px 20px 0px 30px;
+    margin: 16px 10px 0px;
+}
+
+li a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+li a :active{
+    color: #F2CB04;
+}
+
+.top-title{
+    text-align: center;
+}
+
+.top-title p{
+    font-size: 32px;
+    letter-spacing: 6px;
+    margin-bottom: -8px;
+}
+
+.top-title h1{
+    font-size: 100px;
+    letter-spacing: 2px;
+}
+
+@media all and (max-width: 500px){
+
+}
