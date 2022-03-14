@@ -133,20 +133,22 @@ header{
     font-size: 22px;
 }
 
-.account img{
-    width: 40px;
-    margin: 0px 16px;
-}
-
-.account p{
-    font-size: 22px;
-}
-
 .ac{
+    /* background-color: #000; */
     width: 300px;
     display: flex;
     align-items: center;
+}
 
+.account img{
+    width: 40px;
+    margin: 0px 16px -8px;
+}
+
+.account p{
+    /* background-color: #fff; */
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* footer */

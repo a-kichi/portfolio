@@ -79,30 +79,125 @@ header{
     font-style: normal;
 }
 
+.wrapper nav{
+    /* background-color: aquamarine; */
+    text-align: center;
+    margin: 136px 0px 0px;
+}
 
+/*リスト*/
+.wrapper li{
+    /* background-color: aqua; */
+    display: inline-block;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: -8px 24px 0px;
+    padding: 0px 7px 0px 10px;
+}
+
+.wrapper li a{
+    text-decoration: none;
+    color: #F2CB04;
+}
+
+.wrapper li a :active{
+    color: #F2CB04;
+}
+
+
+/* works */
 .works{
-    margin: 112px auto 200px;
+    /* background-color: #fff; */
+    margin: 0 auto;
     width: 1000px;
     display: flex;
     justify-content: center;
 }
 
-#work-top{
-    width: 380px;
+.work-img{
+    width: 300px;
 }
 
-.work-all{
-    margin-left: 40px;
-    width: 440px;
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-wrap: wrap;
+.text-box{
+    width: 500px;
+    margin-left: 72px;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.work-all img{
-    width: 200px;
+.text-box h2{
+    margin: 56px 0px 24px 0px;
+    font-size: 26px;
 }
+
+.text-box p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.tx2{
+    margin-left: 0;
+    margin-right: 72px;
+}
+
+/* hr */
+
+.work-border {
+    border-top: 3px solid #F2CB04;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 770px;
+    margin: 80px auto 44px;
+  text-align: center;
+  overflow: visible;
+}
+
+.work-border::after {
+    content: "NEW";
+    background: #F2F2F2;
+    color: #F2CB04;
+    font-size: 20px;
+    font-weight: 700;
+  display: inline-block;
+  position: relative;
+  top: -22px;
+  padding: 0 40px;
+}
+
+.bd2{
+    margin: 120px auto 44px;
+}
+
+.bd2::after{
+    content: "WEBサイト";
+}
+
+.bd3{
+    margin: 72px auto;
+    border-top: none;
+}
+
+.bd3::after{
+    content: none;
+}
+
+.bd4::after{
+    content: "APP";
+}
+
+.bd5::after{
+    content: "OTHERS";
+}
+
+.wrapper h3{
+    text-align: center;
+    margin: 128px auto 200px;
+}
+
 
 /* footer */
 
