@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "jinky";
+    src: url("/fonts/JINKY.ttf");
+}
+
+@font-face {
+    font-family: "からかぜ";
+    src: url("/fonts/karakaze-M.ttf");
+}
+
 body{
     width: 100%;
     font-family: "jinky", "からかぜ";
@@ -64,8 +74,11 @@ header{
 
 /*wrapper*/
 .wrapper{
-    font-family: "筑紫A丸ゴシック";
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 
 .works{
     margin: 112px auto 200px;
@@ -132,6 +145,7 @@ footer{
 .copy{
     font-size: 22px;
     margin: 94px auto 136px;
+    letter-spacing:4px;
 }
 
 @media all and (max-width: 500px){

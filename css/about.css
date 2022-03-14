@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "jinky";
+    src: url("/fonts/JINKY.ttf");
+}
+
+@font-face {
+    font-family: "からかぜ";
+    src: url("/fonts/karakaze-M.ttf");
+}
+
 body{
     width: 100%;
     font-family: "jinky", "からかぜ";
@@ -65,12 +75,14 @@ header{
 
 /*wrapper*/
 .wrapper{
-    font-family: "筑紫A丸ゴシック";
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .content1{
     width: 1000px;
-    margin: 112px auto 120px;
+    margin: 112px auto 180px;
     display: flex;
     justify-content: center;
 }
@@ -87,7 +99,9 @@ header{
 .text-box{
     width: 500px;
     margin-left: 72px;
-    font-family: "筑紫A丸ゴシック";
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .text-box h2{
@@ -107,7 +121,6 @@ header{
 }
 
 .account{
-    /* background-color: azure; */
     width: 1000px;
     height: 170px;
     margin: 0 auto 200px;
@@ -122,15 +135,18 @@ header{
 
 .account img{
     width: 40px;
-}
-
-.fb{
-    padding-left: 80px;
+    margin: 0px 16px;
 }
 
 .account p{
-    font-size: 24px;
-    margin: 0px 80px 0px 20px;
+    font-size: 22px;
+}
+
+.ac{
+    width: 300px;
+    display: flex;
+    align-items: center;
+
 }
 
 /* footer */
@@ -175,6 +191,7 @@ footer{
 .copy{
     font-size: 22px;
     margin: 94px auto 136px;
+    letter-spacing:4px;
 }
 
 @media all and (max-width: 500px){
