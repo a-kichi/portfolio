@@ -12,6 +12,63 @@
     font-family: "からかぜ";
     src: url("/fonts/karakaze-M.ttf");
 }
+/* ローディング */
+/* ローディング画面 */
+#loading {
+    width: 100vw;
+    height: 100vh;
+    background: #F2F2F2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+ 
+#loading_barWrap {
+    width: 16vw;
+    height: calc(1rem + 5px);
+    position: fixed;
+    top: -24px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+ 
+#loading_bar {
+    width: 0;
+    height: 3px;
+    margin-top: 16px;
+    background: #F2CB04;
+    transition-duration: 1s;
+}
+ 
+.text {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #F2CB04;
+}
+ 
+.loadingNone {
+    animation: loadingAnime 1s forwards;
+}
+ 
+@keyframes loadingAnime {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
+
+/* body */
 
 body{
     width: 100%;
