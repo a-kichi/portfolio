@@ -3,7 +3,6 @@
 //     spinner.classList.add('loaded');
 //   }
 
-
 var images = document.getElementsByTagName('img');
 var loadingBar = document.getElementById('loading_bar');
 var loadingWrap = document.getElementById('loading_barWrap');
