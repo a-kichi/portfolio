@@ -86,11 +86,17 @@ body{
 }
 
 #wrapper{
-    background-color: #F2F2F2;
+    /* background-color: #882b2b; */
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/top-02.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
 .bl{
-    height: 470px;
+    height: 490px;
 }
 
 li{
@@ -124,7 +130,7 @@ li a :active{
 .top-title p{
     font-size: 3rem;
     letter-spacing: 6px;
-    margin-bottom: -8px;
+    margin-bottom: -24px;
 }
 
 .top-title h1{
@@ -133,6 +139,9 @@ li a :active{
     margin-bottom: -20px;
 }
 
-@media all and (max-width: 500px){
+@media all and (max-width: 1440px){
 
+    #wrapper{
+        width: 100%;
+    }
 }
