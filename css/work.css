@@ -37,7 +37,7 @@
  
 #loading_bar {
     width: 0;
-    height: 3px;
+    height: 2px;
     margin-top: 16px;
     background: #F2CB04;
     transition-duration: 1s;
@@ -146,9 +146,10 @@ header{
 .wrapper li{
     /* background-color: aqua; */
     display: inline-block;
+    font-family: "jinky";
     letter-spacing: 6px;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: bold;
     margin: -8px 24px 0px;
     padding: 0px 7px 0px 10px;
 }
@@ -172,9 +173,9 @@ header{
     justify-content: center;
 }
 
-.work-img{
+/* .work-img{
     width: 300px;
-}
+} */
 
 .text-box{
     width: 500px;
@@ -195,6 +196,10 @@ header{
     margin-bottom: 24px;
 }
 
+.text-box a{
+    text-decoration: underline;
+}
+
 .tx2{
     margin-left: 0;
     margin-right: 72px;
@@ -202,58 +207,67 @@ header{
 
 /* hr */
 
-.work-border {
-    border-top: 3px solid #F2CB04;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    width: 770px;
-    margin: 80px auto 44px;
-  text-align: center;
-  overflow: visible;
+.bdline{
+    width: 750px;
+    /* background-color: #fff; */
+    margin: 0 auto;
 }
 
-.work-border::after {
-    content: "NEW";
-    background: #F2F2F2;
-    color: #F2CB04;
-    font-size: 20px;
-    font-weight: 700;
-  display: inline-block;
-  position: relative;
-  top: -22px;
-  padding: 0 40px;
+.work-border {
+    margin: 80px auto 42px;
+    text-align: center;
+    overflow: visible;
 }
 
 .bd2{
     margin: 120px auto 44px;
 }
 
-.bd2::after{
-    content: "WEBサイト";
-}
-
 .bd3{
     margin: 72px auto;
-    border-top: none;
-}
-
-.bd3::after{
-    content: none;
-}
-
-.bd4::after{
-    content: "APP";
-}
-
-.bd5::after{
-    content: "OTHERS";
+    border: none;
 }
 
 .wrapper h3{
+    font-family: "jinky";
+    letter-spacing: 6px;
+    font-size: 40px;
     text-align: center;
-    margin: 128px auto 200px;
+    margin: 120px auto 210px;
 }
+
+/* topbtn */
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    line-height: 1;
+    z-index: 99;
+  }
+  #page-top a {
+    border: solid 2px #F2CB04;
+    background: #F2F2F2;
+    text-decoration: none;
+    color: #F2CB04;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: "からかぜ";
+    width: 60px;
+    padding: 30px 18px;
+    margin: 30px;
+    text-align: center;
+    display: block;
+    border-radius: 90px;
+    opacity: 0.9;
+    transition: all .3s ease;
+  }
+  #page-top a:hover {
+    text-decoration: none;
+    opacity: .5;
+  }
+
 
 
 /* footer */
